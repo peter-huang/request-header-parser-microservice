@@ -1,0 +1,28 @@
+{
+  "name": "request-header-parser-microservice",
+  "version": "0.0.1",
+  "description": "A header parser microservice API that returns the user's ip address, language pack, and user-agent",
+  "homepage": "https://florentine-glimmer-property.glitch.me",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.0.0-alpha.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.19.0"
+  },
+  "engines": {
+    "node": "4.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://hyperdev.com/#!/project/welcome-project"
+  },
+  "keywords": [
+    "node",
+    "hyperdev",
+    "express"
+  ],
+  "license": "MIT"
+}
